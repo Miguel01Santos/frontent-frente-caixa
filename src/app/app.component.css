@@ -1,0 +1,50 @@
+.container-tela-login {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background-color: var(--primary-color-blue);
+}
+
+
+.header-tela-login{
+    height: 10%;
+    width: 100%;
+    padding-left: 30px;
+    background-color: var(--primary-color-blue);
+
+    .logtipo-tela-login{
+        height: 100%;
+        width: 10%;
+        background-color: var(--primary-color-blue);
+
+        .logotipo{
+            border: solid black 1px;
+        }
+    }
+
+}
+
+.main-tela-login{
+    height: 87%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    border: solid black 1px;
+
+    .login-tela-login{
+        height: 90%;
+        width: 25%;
+        background-color: aqua;
+    }
+}
+
+.footer-tela-login{
+    height: 3%;
+    width: 100%;
+    background-color: var(--secondary-color-blue);
+}

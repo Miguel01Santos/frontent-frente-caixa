@@ -1,0 +1,37 @@
+.social-media-connections{
+    height: 8vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+.box-icon{
+    height: 85%;
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 8px;
+    border: solid 0.1px var(--secondary-color-blue);
+    background-color: var(--primary-color-white);
+    cursor: pointer;
+}
+
+.bi-google {
+    font-size: 25px;
+    background: linear-gradient(to right, #DB4437,#DB4437, #F4B400, #0F9D58, #0F9D58, #4285F4);
+    -webkit-background-clip: text; /* Faz o gradiente aparecer no texto */
+    -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+}
+
+.bi-facebook{
+    font-size: 25px;
+    color: blue;
+}
+
+.bi-linkedin{
+    font-size: 25px;
+    color: rgb(9, 9, 185);
+}
