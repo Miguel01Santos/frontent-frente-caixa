@@ -1,21 +1,50 @@
+<!--link de importação das fonts, google fonts-->
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+  rel="stylesheet"
+/>
+
+<!--link de importação dos icones do bootstrap-->
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css"
+/>
+
 <section class="container-tela-login">
-    <header class="header-tela-login">
-        <section class="logtipo-tela-login">
-            <img src="https://avatars.githubusercontent.com/u/185263467?v=4" alt="logotipo-sts-softwares" class="logotipo">
-        </section>
-    </header>
-    <main class="main-tela-login">
-        <section class="login-tela-login">
-            <div class="title-login">
-                <h2>Conecte-se</h2>
-            </div>
-            <div class="conection-sociais">
-                <app-social-media-connections></app-social-media-connections>
-            </div>
-        </section>
-    </main>
-    <footer class="footer-tela-login">
-
-    </footer>
-
+  <header class="header-tela-login">
+    <section class="logtipo-tela-login">
+      <img
+        src="https://stssoftwares.com.br/wp-content/uploads/2024/10/logotipoSTSbrancoequenao.png"
+        alt="logotipo-sts-softwares"
+        class="logotipo"
+      />
+    </section>
+  </header>
+  <main class="main-tela-login">
+    <section class="login-tela-login">
+      <div class="title-login">
+        <h2 class="title-login-tela-login"><b>Conecte-se</b></h2>
+      </div>
+      <div class="conection-sociais">
+        <app-social-media-connections></app-social-media-connections>
+      </div>
+      <div class="linha-ou">
+        <hr class="linha" />
+        <span class="texto-ou">ou</span>
+        <hr class="linha" />
+      </div>
+      <app-form-tela-login></app-form-tela-login>
+      <div class="esqueceu-sua-senha">
+        <span class="esqueceu"><b>Esqueceu sua Senha?</b></span>
+      </div>
+      <div class="oferecimento-planos">
+        <span><b>Ainda não contratou seu plano?</b> <b class="comece">Comece Agora!</b> </span>
+      </div>
+    </section>
+  </main>
+  <footer class="footer-tela-login">
+    <p class="version-project">version PATH 1.0.0</p>
+  </footer>
 </section>

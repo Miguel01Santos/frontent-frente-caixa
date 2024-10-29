@@ -1,37 +1,38 @@
+/*Estilos relacionados as caixas que contem os icones de vinculos de contas com redes sociais*/
+
+/*container principal da aplicação*/
 .social-media-connections{
     height: 8vh;
     width: 100%;
     display: flex;
     align-items: center;
     justify-content: space-around;
-
+    padding: 0px 25px;
 }
 
+/*dimensões de todas as caixas*/
 .box-icon{
-    height: 85%;
-    width: 20%;
+    height: 100%;
+    width: 25%;
     display: flex;
     align-items: center;
     justify-content: center;
     border-radius: 8px;
-    border: solid 0.1px var(--secondary-color-blue);
+    border: solid 0.1px rgb(75, 72, 72);
     background-color: var(--primary-color-white);
     cursor: pointer;
 }
 
-.bi-google {
-    font-size: 25px;
-    background: linear-gradient(to right, #DB4437,#DB4437, #F4B400, #0F9D58, #0F9D58, #4285F4);
-    -webkit-background-clip: text; /* Faz o gradiente aparecer no texto */
-    -webkit-text-fill-color: transparent; /* Torna o preenchimento do texto transparente */
+/*caixa do facebook*/
+.icon-facebook{
+    background-color: rgb(37, 74, 225);
+    font-size: 30px;
+    color: white;
 }
 
-.bi-facebook{
+/*caixa do linkedin*/
+.icon-linkedin{
+    color: white;
     font-size: 25px;
-    color: blue;
-}
-
-.bi-linkedin{
-    font-size: 25px;
-    color: rgb(9, 9, 185);
+    background-color: var(--primary-color-blue);
 }
